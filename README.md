@@ -7,7 +7,8 @@ npm run build
 ```
 ### In the ionic project install it like this (just change path to yours)
 ```
-npm install /{path-to-plugin}/capacitor-sensors-v2
+npm install @unicorns-and-unicorns/capacitor-sensors-v2 --save
+npx cap sync
 ```
 ### And then
 ```
