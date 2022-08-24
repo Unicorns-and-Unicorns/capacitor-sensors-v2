@@ -1,6 +1,6 @@
 {
   "name": "@unicorns-and-unicorns/capacitor-sensors-v2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get sensors data",
   "main": "dist/plugin.js",
   "module": "dist/esm/index.js",
