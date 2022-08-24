@@ -37,7 +37,7 @@
     "dist/",
     "ios/",
     "android/",
-    "Sensors.podspec"
+    "UnicornsAndUnicornsCapacitorSensorsV2.podspec"
   ],
   "keywords": [
     "capacitor",
