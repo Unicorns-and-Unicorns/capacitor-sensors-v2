@@ -28,6 +28,10 @@ export interface SensorsPlugin {
     eventName: 'gyroscopeChange',
     listenerFunc: (magnetometerData: SensorData) => void,
   ): PluginListenerHandle;
+  /**
+   * Removes all listeners
+   */
+  removeAllListeners(): void;
 }
 
 export interface SensorData {

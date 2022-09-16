@@ -44,5 +44,9 @@ useEffect(() => {
 		setAccelerometerY(res.y);
 		setAccelerometerZ(res.z);
 	});
+
+	return () => {
+		Plugins.Sensors.removeAllListeners();
+	}
 }, []);
 ```
